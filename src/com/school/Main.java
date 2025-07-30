@@ -12,13 +12,13 @@ public class Main {
         students[1] = new Student();
         students[1].setDetails(2, "Bob The Builder");
 
-        Course[] courses = new Course[2];
+// Add these imports at the top of the file:
+// import java.util.ArrayList;
+// import java.util.List;
 
-        courses[0] = new Course();
-        courses[0].setDetails("CS101", "Intro to Programming");
-
-        courses[1] = new Course();
-        courses[1].setDetails("MA202", "Linear Algebra");
+List<Course> courses = new ArrayList<>();
+courses.add(new Course("CS101", "Intro to Programming"));
+courses.add(new Course("MA202", "Linear Algebra"));
 
         System.out.println("\nRegistered Students:");
         for (Student student : students) {
