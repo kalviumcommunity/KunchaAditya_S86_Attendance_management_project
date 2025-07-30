@@ -1,8 +1,8 @@
 package com.school;
 
 public class Student {
-    int studentId;
-    String name;
+private int studentId;
+private String name;
 
 public Student(int id, String studentName) {
     this.studentId = id;
