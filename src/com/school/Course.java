@@ -1,8 +1,8 @@
 package com.school;
 
 public class Course {
-    String courseId;
-    String courseName;
+private String courseId;
+private String courseName;
 
     public void setDetails(String id, String cName) {
         this.courseId = id;
